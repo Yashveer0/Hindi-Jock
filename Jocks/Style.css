@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+ .navbar {
+    background-color: #00ffff;  
+    height: 5rem;
+ }
+ ul {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ li {
+    list-style: none;
+    margin-top: 1.2rem;
+    
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+   
+ }
+ a:hover {
+    font-weight: 600;
+ }
+ .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+ }
+ p {
+   margin: 1rem;
+   display: flex;
+   border: solid 2px black;
+   border-radius: 1.5rem;
+   box-shadow: 8px 4px 10px 1px;
+   font-weight: 700;
+    padding: 2rem ;
+    margin-top: 6rem;
+ }
+ .btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ button {
+    cursor: pointer;
+     /* margin-left: 35rem; */
+     margin-top: 3rem; 
+    outline: 0;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    width: 8rem;
+ }
+ button:hover {
+    background-color: #3c3a3a;
+ }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+  i {
+   font-size: 2rem;
+  }
+  .enda {
+    margin: 0.4rem;
+    
+  }
+  #insta {
+   color: #ff0000;
+  }
+
+  #twitter, #fb {
+   color: rgb(107, 191, 224);
+  }
+
+  section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 1rem;
+  }
+  span {
+   color: #ff0000;
+   font-size: 3rem;
+  }
+  .main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+ .box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 1.8rem;
+   border: 2px solid black;
+   border-radius: 0rem 1.8rem 0rem 1.8rem;
+ }
+ i {
+   margin: 0.5rem;
+
+ }
+ img {
+   margin: 1rem;
+   box-shadow: 2px 4px 6px 2px black;
+ }
+.flexcontainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.container {
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   margin: 1rem;
+   border: 2px solid black;
+   height: 28rem;
+   width: 26rem;
+   border-radius: 2rem 0rem 2rem 0rem;
+}
+
+.img1 {
+   display: block;
+   width: 12rem;
+   height: 16rem;
+   box-shadow: none; 
+   position: absolute;  
+}
+
+
+.img2 {
+   display: block;
+   width: 12rem;
+   height: 16rem;
+   box-shadow: none;
+   position: absolute;
+   
+  
+}
+.img2:hover {
+   display: none;
+   
+}
+.text {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 18rem;
+   position: absolute;
+}
+.img1,.img2 {
+   cursor: pointer;
+   border-radius: 0rem 1.2rem 0rem 1.2rem;
+}
+.navbar i {
+   font-size: 1rem;
+}
